@@ -1,0 +1,38 @@
+# Binaries and build output
+/dist/
+/*.exe
+/*.out
+/*.app
+
+# Go-specific ignores
+*.exe
+*.test
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go vendor dependencies (if you're using vendoring)
+vendor/
+
+# Logs
+*.log
+
+# Temporary files created by editors or the OS
+*.swp
+*.swo
+*.tmp
+*~
+
+# IDE or editor-specific directories and files
+.vscode/
+.idea/
+
+# Go module files
+src/go.sum
+
+# Ignore binaries in src (if building in the src directory as well)
+src/*.exe
+src/*.test
+src/*.out
